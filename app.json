@@ -1,0 +1,19 @@
+{
+    "deployment": {
+      "files": {
+        "my-resource-file1": {
+          "sourceUrl": "https://storage.googleapis.com/thestartup-tools-firstdraft/api/main.go"
+        }
+      }
+    },
+    "id": "v1",
+    "handlers": [
+      {
+        "urlRegex": "/.*",
+        "script": {
+          "scriptPath": "main.go"
+        }
+      }
+    ],
+    "runtime": "go"
+  }
